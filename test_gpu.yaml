@@ -10,4 +10,4 @@ spec:
       command: ["sleep infinity"]
       resources:
         limits:
-          nvidia.com/gpu: 2
+          nvidia.com/gpu: 1
