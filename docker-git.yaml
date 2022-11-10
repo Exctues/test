@@ -8,5 +8,4 @@ spec:
     - name: docker-with-git
       image: "docker:git"
       # Just spin & wait forever
-      command: [ "/bin/bash", "-c", "--" ]
-      args: [ "while true; do sleep 30; done;" ]
+      command: [ "tail", "-f", "/dev/null" ]
